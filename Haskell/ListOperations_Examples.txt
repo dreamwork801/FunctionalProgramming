@@ -1,0 +1,20 @@
+List Operations Examples:
+
+whatIndex:
+whatIndex 5 [9] == -1
+whatIndex 5 [9,8,7,6,5,4,3,2,1] == 4
+
+adda_list_comp (or adda_list_rec):
+adda_list_comp 6 [1,2,3,4,5,6,7] == [7,8,9,10,11,12,13]
+adda_list_comp 0 [] == []
+adda_list_comp 3 [100,200,300,4,500] == [103,203,303,7,503]
+
+cubeOdds:
+cubeOdds [1,2,3,4,5,6] == [1,4,27,16,125,36]
+cubeOdds [5,7,9,2,4,5] == [125,343,729,4,16,125]
+
+listMin: 
+listMin [-5,2,3,5,47,0,6,7] == -5
+listMin [103,203,303,7,503] == 7
+listMin (cubeOdds [5,7,9,2,4,5]) == 4
+
